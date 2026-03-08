@@ -1,4 +1,4 @@
-# Hungarian forint investment analysis (2019 - 2026)
+# Tableau: Hungarian forint investment analysis (2019 - 2026)
 In high-inflation environments, investors often believe that converting local currency into euros will protect their wealth.
 
 But does currency timing actually work?
