@@ -1,4 +1,17 @@
 # Hungarian forint investment analysis
+In high-inflation environments, investors often believe that converting local currency into euros will protect their wealth.
+
+But does currency timing actually work?
+
+This project analyzes investment strategies in Hungary between 2019 and 2026 using an interactive Tableau dashboard. By combining inflation data, EUR/HUF exchange rates, and simulated investment returns, the model compares nominal asset growth with real purchasing power.
+
+The analysis reveals a counter-intuitive result: despite significant currency volatility, FX timing generates very limited gains, while passive HUF bond investments deliver higher long-term value.
+---
+
+# Dashboard
+Interactive Tableau dashboard:
+https://public.tableau.com/app/profile/alice.cls/viz/HUFInvestmentAnalysis/YearMonthView?publish=yes
+Key finding: currency timing generated less than €300 over five years and **significantly underperformed a passive 5% bond strategy**.
 
 # Real vs Nominal Wealth Analysis (Hungary 2019–2026)
 
@@ -86,13 +99,6 @@ The dataset includes monthly observations from **June 2019 to February 2026** an
 - Simulated investment returns
 
 Some financial metrics were pre-calculated outside Tableau to overcome calculation layer limitations.
-
----
-
-# Dashboard
-
-Interactive Tableau dashboard:
-https://public.tableau.com/app/profile/alice.cls/viz/HUFInvestmentAnalysis/YearMonthView?publish=yes
 
 ---
 
