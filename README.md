@@ -1,14 +1,13 @@
-# Hungarian-forint-investment-analysis
+# Hungarian forint investment analysis
 
 # Real vs Nominal Wealth Analysis (Hungary 2019–2026)
 
 This project analyzes how inflation and exchange rate fluctuations affect the real value of personal wealth for Hungarian investors.
 
-Using a simulated monthly investment dataset and interactive Tableau dashboards, the project compares different investment strategies and evaluates whether currency timing strategies outperform passive bond investments.
+Using a simulated monthly investment dataset and interactive Tableau dashboards, the project compares different investment strategies and evaluates whether **currency timing strategies** outperform **passive bond investments**.
 
 The analysis highlights the difference between **nominal asset growth** and **real purchasing power** under changing macroeconomic conditions.
 
----
 
 # Key Questions
 
@@ -20,7 +19,7 @@ The analysis highlights the difference between **nominal asset growth** and **re
 
 # Project Structure
 
-The project consists of three analytical dashboards:
+The project consists of three analytical Tableau dashboards:
 
 ## 1. Investment Strategy Simulator
 
@@ -29,17 +28,12 @@ An interactive dashboard that allows users to adjust:
 - Investment allocation ratio
 - Annual return assumptions for two investment products
 
-It compares:
-
-Nominal Wealth vs Real Wealth (inflation adjusted)
+It compares: Nominal Wealth vs Real Wealth (inflation adjusted)
 
 Key insight:
+1. Nominal wealth appears to grow steadily, but once inflation and currency depreciation are considered, real purchasing power grows much slower.
+2. The effect is especially visible during the **2022–2024 inflation spike**.
 
-Nominal wealth appears to grow steadily, but once inflation and currency depreciation are considered, real purchasing power grows much slower.
-
-The effect is especially visible during the **2022–2024 inflation spike**.
-
----
 
 ## 2. FX Timing Strategy
 
@@ -48,11 +42,9 @@ This dashboard tests a rule-based currency exchange strategy using a **3-month r
 FX conversion is triggered when the current exchange rate is more favorable than the recent average.
 
 Key finding:
+1. FX timing opportunities are rare.
+2. Between 2020 and 2024, the strategy generates less than **€300 of additional value**, significantly underperforming a simple **5% bond investment strategy**.
 
-FX timing opportunities are rare.  
-Between 2020 and 2024, the strategy generates less than **€300 of additional value**, significantly underperforming a simple **5% bond investment strategy**.
-
----
 
 ## 3. Macroeconomic Drivers
 
@@ -60,12 +52,10 @@ This dashboard visualizes yearly and monthly trends in:
 
 - Inflation
 - EUR/HUF exchange rate
-- Real vs nominal asset value
 
 Key insight:
-
-Exchange rates and inflation do not move together consistently.  
-The year **2022** represents the most severe macroeconomic shock, with both high inflation and strong HUF depreciation.
+1. Exchange rates and inflation do not move together consistently.  
+2. Year **2022** represents the most severe macroeconomic shock, with both high inflation and strong HUF depreciation.
 
 ---
 
@@ -102,19 +92,13 @@ Some financial metrics were pre-calculated outside Tableau to overcome calculati
 # Dashboard
 
 Interactive Tableau dashboard:
-
-[Insert Tableau Public Link]
+https://public.tableau.com/app/profile/alice.cls/viz/HUFInvestmentAnalysis/YearMonthView?publish=yes
 
 ---
 
 # Documentation
 
-Full methodology and modeling decisions are available here:
-
-documentation/HUF_Investment_Project_Documentation.pdf
-
 The documentation includes:
-
 - Model design decisions
 - Calculation logic
 - Tableau limitations and workarounds
